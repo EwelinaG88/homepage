@@ -1,0 +1,16 @@
+.section {
+    padding-top: 50px;
+}
+
+.section__container {
+    background: #1a1a1d;
+    padding: 20px;
+    border-radius: 3px;
+}
+
+.section_paragraph {
+    color: #c4c4c4;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.5;
+}

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ewelina Gąsienica - przyszły programista</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="css/global.css" rel="stylesheet">
+    <link href="css/container.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/section.css" rel="stylesheet">
+    <link href="css/gallery.css" rel="stylesheet">
+    <link href="css/tableContainer.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="header__mainHeader">Ewelina Gąsienica</h1>
+        <img class="header__image"
+            src="https://i.postimg.cc/FHjGJz3y/13087091-1026588627434443-1126659256910498637-o-1.jpg"
+            alt="Ewelina Gąsienica">
+        <p class="header__paragraph">Wesoła, pogodna, zawsze uśmiechnięta. Nie ma dla mnie rzeczy niemożliwych!</p>
+    </header>
+    <nav class="navigation">
+        <ul class="navigation__list">
+            <li class="navigation__item"><a class="navigation__link" href="#O-mnie">O mnie</a></li>
+            <li class="navigation__item"><a class="navigation__link" href="#Zainteresowania">Zainteresowania</a></li>
+            <li class="navigation__item"><a class="navigation__link" href="#Plan-podrozy">Moje plany</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="O-mnie" class="section">
+            <h2 class="section_header">O mnie</h2>
+            <div class="section__container">
+                <p class="section_paragraph">Witam! Jestem Ewelina i mam 33 lata. Ukończyłam studia magisterskie na
+                    kierunku
+                    <b>Turystyka i
+                        Rekreacja</b>. Obecnie mieszkam i pracuję w Krakowie przy obsłudze sklepu internetowego. <br> W
+                    przeszłosci miałam możliwość podjęcia współpracy przy tworzeniu szablonów blogowych na platformie
+                    <strong>GHOST</strong>, co zrodziło we mnie chęć
+                    poszerzenia wiedzy i kontynuowania nauki w zakresie programowania by w przyszłości podjąć pracę w
+                    tym kierunku.
+                </p>
+            </div>
+        </section>
+        <section id="Zainteresowania" class="section">
+            <h2 class="section_header">Zainteresowania</h2>
+            <div class="section__container">
+                <p class="section_paragraph">Kocham sport! Dalekie, piesze wędrówki cieszą mnie najbardziej. Długie
+                    wycieczki po
+                    górach dają wiele
+                    satysfakci, uczą wytrwałości w dążeniu do osiągania celów oraz wzmacniają moje ciało i umysł!
+                </p>
+                <div class="gallery">
+                    <img class="gallery__image js-gallery__imageMountain"
+                        src="https://i.postimg.cc/CxHXpmPp/82086095-3046448338781785-2346321857681684934-n.jpg"
+                        alt="Górski widok">
+                    <img class="gallery__image js-gallery__imageSea js-gallery__imageHide"
+                        src="https://i.postimg.cc/rwJnPzs8/69623805-2422599477833344-8755655935180931072-n.jpg"
+                        alt="Zachód słońca nad morzem">
+                    <Button class="gallery__button">Wyświetl inne</Button>
+                </div>
+            </div>
+        </section>
+        <section id="Plan-podrozy" class="section">
+            <h2 class="section__header">Moje zaplanowane podróże </h2>
+            <div class="section__container tableContainer">
+                <table class="table">
+                    <caption class="table__caption">Plan podróży w roku 2022</caption>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header " scope="col">Miesiąc</th>
+                        <th class="table__cell table__cell--header " scope="col">Kraj</th>
+                        <th class="table__cell table__cell--header " scope="col">Miejsce docelowe</th>
+                        <th class="table__cell table__cell--header " scope="col">Sposób podróżownia</th>
+                        <th class="table__cell table__cell--header " scope="col">Długość pobytu</th>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header " scope="row">Styczeń</th>
+                        <td class="table__cell ">Polska</td>
+                        <td class="table__cell ">Szczawnica</td>
+                        <td class="table__cell ">Samochód</td>
+                        <td class="table__cell ">4 dni</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header " scope="row">Kwiecień</th>
+                        <td class="table__cell ">Włochy</td>
+                        <td class="table__cell ">Rzym</td>
+                        <td class="table__cell ">Samolot</td>
+                        <td class="table__cell ">5 dni</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header " scope="row">Sierpień</th>
+                        <td class="table__cell ">Hiszpania</td>
+                        <td class="table__cell ">Majorka</td>
+                        <td class="table__cell ">Samolot</td>
+                        <td class="table__cell ">10 dni</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header " scope="row">Wrzesień</th>
+                        <td class="table__cell ">Polska</td>
+                        <td class="table__cell ">Zakopane</td>
+                        <td class="table__cell ">Samochód</td>
+                        <td class="table__cell ">5 dni</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header " scope="row" colspan="4">Suma:</th>
+                        <td class="table__cell ">24 dni</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <h3 class="footer__header">Kontakt:</h3>
+        <ul class="footer__list">
+            <li class="footer__listItem">Ewelina Gąsienica</li>
+            <li class="footer__listItem">
+                <a class="footer__listLink" href="tel:+48.503(694)93">Tel: 503 694 93</a>
+            </li>
+            <li class="footer__listItem">
+                <a class="footer__listLink" href="mailto:ewelinagasienica@o2.pl">ewelinagasienica@o2.pl</a>
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>

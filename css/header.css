@@ -1,0 +1,24 @@
+.header {
+    text-align: center;
+    margin: 0 auto 50px 0;
+}
+
+.header__mainHeader {
+    font-size: 32px;
+    font-weight: 700;
+    text-shadow: 1px 1px 0 rgb(0 0 0 / 10%);
+}
+
+.header__image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid #28998a;
+}
+
+.header__paragraph {
+    font-size: 22px;
+    color: #c4c4c4;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #c4c4c456 ;
+}

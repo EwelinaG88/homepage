@@ -1,0 +1,21 @@
+.footer {
+    margin-top: 50px;
+}
+
+.footer__list {
+    list-style: none;
+    padding: 0;
+}
+
+.footer__listItem {
+    margin: 5px 0;
+}
+
+.footer__listLink {
+    color: #28998a;
+    text-decoration: none;
+}
+
+.footer__listLink:hover {
+    text-decoration: underline;
+}

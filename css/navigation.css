@@ -1,0 +1,38 @@
+.navigation {
+    padding: 0;
+    margin: 50px auto;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navigation__list {
+    margin: 0 20px 0 0;
+}
+
+.navigation__item {
+    display: inline-block;
+    margin: 5px 10px 5px 0;
+}
+
+.navigation__link {
+    display: inline-block;
+    color: #c4c4c4;
+    text-decoration: none;
+    border: 1px solid #28998a;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.navigation__link:visited {
+    color: #ddd;
+}
+
+.navigation__link:focus {
+    color: #28998a;
+    outline: none;
+}
+
+.navigation__link:hover {
+    color: #fff;
+    background: #28998a
+}

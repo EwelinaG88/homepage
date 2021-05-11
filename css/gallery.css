@@ -1,0 +1,39 @@
+.gallery {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.gallery__image { 
+    display: block;
+    margin: 50px auto;
+    border-radius: 2px;
+    border: 2px solid #28998a;
+    max-width: 300px;
+    height: 300px; ;
+}
+
+.gallery__button {
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #28998a;
+    padding: 10px;
+    border-radius: 3px;
+    display: inline-block;
+    background: #28998a;
+    font-family: 'Roboto', sans-serif;
+    margin: 20px auto 20px;
+    cursor: pointer;
+    outline: rgba(0, 0, 0, 0.43) ;
+}
+
+.gallery__button:hover {
+    box-shadow: 5px -5px 18px 0px rgba(0, 0, 0, 0.43);
+}
+
+.gallery__button:active {
+    color: #222;
+}
+
+.js-gallery__imageHide {
+    display: none;
+}
